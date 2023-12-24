@@ -1,4 +1,4 @@
-package com.blackoutburst.thrones
+package dev.blackoutburst.thrones
 
 import java.text.SimpleDateFormat
 import java.util.*

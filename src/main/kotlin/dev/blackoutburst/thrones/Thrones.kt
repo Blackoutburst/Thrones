@@ -1,4 +1,4 @@
-package com.blackoutburst.thrones
+package dev.blackoutburst.thrones
 
 object Thrones {
 

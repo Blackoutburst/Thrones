@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version "1.9.21"
 }
 
-group = "com.blackoutburst"
+group = "dev.blackoutburst"
 version = "1.0.0"
 
 repositories {

@@ -1,4 +1,4 @@
-package com.blackoutburst.thrones
+package dev.blackoutburst.thrones
 
 enum class ThronesLevel(val indicator: String) {
     TRACE("\u001B[36m\uD83C\uDD83"),

@@ -1,4 +1,4 @@
-package com.blackoutburst.thrones
+package dev.blackoutburst.thrones
 
 data class ThronesConfiguration(
     var level: ThronesLevel = ThronesLevel.INFO,
