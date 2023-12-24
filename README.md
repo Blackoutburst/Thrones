@@ -1,2 +1,2 @@
-# thrones
+# Thrones
 Lightweight logger api
