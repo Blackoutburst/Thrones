@@ -3,19 +3,12 @@ plugins {
 }
 
 group = "com.blackoutburst"
-version = "1.0-SNAPSHOT"
+version = "1.0"
 
 repositories {
     mavenCentral()
 }
 
-dependencies {
-    testImplementation("org.jetbrains.kotlin:kotlin-test")
-}
-
-tasks.test {
-    useJUnitPlatform()
-}
 kotlin {
-    jvmToolchain(18)
+    jvmToolchain(11)
 }
