@@ -1,23 +1,5 @@
 package com.blackoutburst.thrones
 
-fun main() {
-
-    Thrones.configuration = ThronesConfiguration(
-        level = ThronesLevel.INFO,
-        showTime = true,
-         showThread = true,
-         showClass = true,
-         showPackage = true,
-         showIndicator = true,
-    )
-
-    Thrones.t("Trace")
-    Thrones.d("Debug")
-    Thrones.i("Info")
-    Thrones.w("Warn")
-    Thrones.e("Error")
-}
-
 object Thrones {
 
     var configuration: ThronesConfiguration = ThronesConfiguration()
