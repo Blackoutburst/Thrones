@@ -1,5 +1,27 @@
 # Thrones
-Lightweight logger api
+Lightweight logger api not planning
+
+## Install
+### Gradle
+```gradle
+repositories {
+    maven {
+        url = uri("https://maven.pkg.github.com/Blackoutburst/Thrones")
+    }
+}
+
+dependencies {
+    implementation("dev.blackoutburst:thrones:1.0.0")
+}
+```
+### Maven
+```xml
+<dependency>
+  <groupId>dev.blackoutburst</groupId>
+  <artifactId>thrones</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
 
 ## Usage
 Code
