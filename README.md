@@ -55,4 +55,4 @@ Thrones.configuration = ThronesConfiguration(
 - ERROR
 
 ### Format
-`<date> <thread> <class> <package> <indicator> <message>`
+`<time> <thread> <class> <package> <indicator> <message>`
