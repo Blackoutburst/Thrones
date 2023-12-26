@@ -1,5 +1,5 @@
 # Thrones
-Lightweight logger api not planning
+Lightweight logger api
 
 ## Install
 ### Gradle
