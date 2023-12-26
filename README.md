@@ -36,6 +36,7 @@ Output
 ![./readme/log_output.png](./readme/log_output.png)
 
 ## Configuration
+This is the default configuration
 ```kotlin
 Thrones.configuration = ThronesConfiguration(
     level = ThronesLevel.INFO,
