@@ -19,7 +19,7 @@ object Thrones {
      * @param message The message to be logged.
      * @return A formatted string based on the configuration settings and log level.
      */
-    fun format(level: ThronesLevel, message: String) {
+    fun format(level: ThronesLevel, message: String): String {
         val builder = StringBuilder()
 
         if (configuration.showTime) builder.append("${dateTime()} ")
@@ -28,7 +28,7 @@ object Thrones {
         if (configuration.showPackage) builder.append("${caller().second} ")
         if (configuration.showIndicator) builder.append("${level.indicator} ")
 
-        builder.append("$message\u001B[0m")
+        return builder.append("$message\u001B[0m").toString()
     }
 
     /**
