@@ -33,6 +33,8 @@ buildscript {
 
 tasks.withType<DokkaTask>().configureEach {
     pluginConfiguration<DokkaBase, DokkaBaseConfiguration> {
+        customAssets = listOf(file("dokka/logo-icon.png"))
+        customStyleSheets = listOf(file("dokka/logo-styles.css"))
         footerMessage = "(c) 2024 Florian \"Blackoutburst\" Chanson"
         separateInheritedMembers = true
         mergeImplicitExpectActualDeclarations = false
