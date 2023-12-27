@@ -1,3 +1,6 @@
+[![Release](https://img.shields.io/github/release/Blackoutburst/Thrones.svg)](https://github.com/Blackoutburst/Thrones/releases)
+![Size](https://img.shields.io/github/repo-size/Blackoutburst/Thrones)
+
 # Thrones
 Lightweight logger api
 
