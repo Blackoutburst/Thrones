@@ -1,7 +1,11 @@
-[![Release](https://img.shields.io/github/release/Blackoutburst/Thrones.svg)](https://github.com/Blackoutburst/Thrones/releases)
-![Size](https://img.shields.io/github/repo-size/Blackoutburst/Thrones)
-
 # Thrones
+
+<img align="right" src="./dokka/logo-icon.png" width=15%>
+
+[![Release](https://img.shields.io/github/release/Blackoutburst/Thrones.svg?style=for-the-badge)](https://github.com/Blackoutburst/Thrones/releases)
+![Size](https://img.shields.io/github/repo-size/Blackoutburst/Thrones?style=for-the-badge)
+[<img src="https://img.shields.io/badge/V1.1.1-blueviolet?style=for-the-badge&logo=kotlin&logoColor=white&label=KDoc">](https://plugins.blackoutburst.dev/dev/blackoutburst/thrones/1.1.1/index.html)
+
 Lightweight logger api
 
 ## Install
