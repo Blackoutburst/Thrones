@@ -23,7 +23,7 @@ internal fun dateTime(): String = SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").fo
  */
 internal fun caller(): Pair<String, String> {
     val stackTrace = Thread.currentThread().stackTrace
-    val caller = stackTrace.getOrNull(2) ?: return Pair("unknown", "unknown")
+    val caller = stackTrace.filter { !it.className.startsWith("dev.blackoutburst.thrones") }.getOrNull(2) ?: return Pair("unknown", "unknown")
 
     val fullClassName = caller.className
     val className = fullClassName.substringAfterLast('.')
