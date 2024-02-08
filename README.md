@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    implementation("dev.blackoutburst:thrones:1.1.1")
+    implementation("dev.blackoutburst:thrones:1.1.2")
 }
 ```
 
